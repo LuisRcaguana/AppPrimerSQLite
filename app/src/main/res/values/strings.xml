@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">AppPrimerSQLite</string>
+    <string name="btn_alta">Alta Contacto</string>
+    <string name="btn_consulta">Consulta Contactos</string>
+    <string name="btn_modifica">Modifica Contacto</string>
+    <string name="btn_borra">Elimina Contacto</string>
+    <string name="et_nombre">Nombre Contacto</string>
+    <string name="et_email">Email</string>
+    <string name="btn_guardar">Guardar</string>
+    <string name="btn_cancelar">Cancelar</string>
+    <string name="btnBorrartex">Atras</string>
+    <string name="texIntro">Introduce Id</string>
+    <string name="btnBuscar">Buscar</string>
+</resources>

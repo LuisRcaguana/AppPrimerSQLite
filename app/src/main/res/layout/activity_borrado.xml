@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BorradoActivity">
+
+    <EditText
+        android:id="@+id/introidBorr"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="56dp"
+        android:ems="10"
+        android:hint="@string/texIntro"
+        android:inputType="numberSigned" />
+
+    <Button
+        android:id="@+id/BuscarBorr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="141dp"
+        android:onClick="buscarB"
+        android:text="@string/btnBuscar" />
+
+    <EditText
+        android:id="@+id/NombreBorr"
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="@string/et_nombre"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/emailBo"
+        android:layout_width="349dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="158dp"
+        android:ems="10"
+        android:enabled="false"
+        android:hint="@string/et_email"
+        android:inputType="textEmailAddress" />
+
+    <Button
+        android:id="@+id/btnBorrar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/introidBorr"
+        android:layout_alignLeft="@+id/introidBorr"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="58dp"
+        android:enabled="false"
+        android:onClick="borrarB"
+        android:text="@string/btn_borra" />
+
+    <Button
+        android:id="@+id/BtnCancelarB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btnBorrar1"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="65dp"
+        android:layout_marginRight="65dp"
+        android:onClick="atrarB"
+        android:text="@string/btn_cancelar" />
+
+</RelativeLayout>
