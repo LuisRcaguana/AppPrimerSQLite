@@ -29,6 +29,7 @@ public class ContactosDatasource {
         database.close();
     }
 
+
     public Contacto consultarContacto(int idContacto) {
         SQLiteDatabase sdb = openReadable();
 
@@ -97,6 +98,7 @@ public class ContactosDatasource {
         ContentValues cv = new ContentValues();
         cv.put(ContactosContract.ContactoEntry.COLUMN_NAME, contacto.getName());
         cv.put(ContactosContract.ContactoEntry.COLUMN_MAIL, contacto.getEmail());
+
 
         long id = sdb.insert(ContactosContract.ContactoEntry.TABLE_NAME, null, cv);
 
